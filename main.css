@@ -1,0 +1,287 @@
+:root {
+    --header-height: 3.5rem;
+  
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --black-color: hsl(220, 24%, 12%);
+    --black-color-light: hsl(220, 24%, 15%);
+    --black-color-lighten: hsl(220, 20%, 18%);
+    --white-color: #fff;
+    --body-color: hsl(220, 100%, 97%);
+  
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Montserrat", sans-serif;
+    --normal-font-size: .938rem;
+}
+
+
+@media (max-width: 768px) {
+   
+    .logo{
+        height: 0px;
+        width: 0vw;
+        margin:0px;
+    }
+
+    .main_content_analfabetismo_link_img{
+        width: 400px;
+        height: 250px;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+    
+    .main_content_analfabetismo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_content_analfabetismo{
+        margin:50px;
+    
+    }
+    
+    .main_content_analfabetismo_link{
+        margin: 20px
+    }
+    
+     p{
+        font-family: var(--body-font);
+        font-style: oblique;
+        font-size: var(--normal-font-size);
+    }
+    
+    h1{
+        font-family: var(--body-font);
+    }
+
+    .main_content_dislexia{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-right: 30px;
+        margin-left:30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    
+    }
+    
+    .main_content_dislexia_link{
+        margin: 20px
+    }
+    .main_content_dislexia_links{
+        display: flex;
+    }
+    .main_content_dislexia_link_img{
+        width: 40vw;
+        height: 30vh;
+        border-radius: 20px;
+    }
+    
+    .TEA{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .TEA_texto{
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    .TEA>h1{
+        color:#141466;
+       
+    }
+    .main_content_analfabetismo_texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        margin: 15px;
+    }
+    .literaturaParaTodos{
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (min-width:768px) {
+
+    .logo{
+        
+        height:90vh;
+        width: 100vw;
+        margin:0;
+    }
+
+
+.main_content_analfabetismo_link_img{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 10vh;
+}
+
+.main_content_analfabetismo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content_analfabetismo{
+    margin:50px;
+
+}
+
+.main_content_analfabetismo_link{
+    margin: 20px
+}
+
+ p{
+    font-family: var(--body-font);
+    font-style: oblique;
+    font-size: var(--normal-font-size);
+}
+
+h1{
+    font-family: var(--body-font);
+}
+
+.main_content_dislexia{
+    margin:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.main_content_dislexia_link{
+    margin: 20px
+}
+.main_content_dislexia_links{
+    display: flex;
+}
+.main_content_dislexia_link_img{
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.TEA{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.TEA>h1{
+    
+    color:#131353;
+   
+}
+.main_content_analfabetismo_texto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.literaturaParaTodos{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+.literaturaParaTodos_link:hover{
+
+    filter: brightness(100%);
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+
+}
+
+.literaturaParaTodos_link{
+    display: flex;
+    width: 30vw;
+    height: 80px;
+    border-color: #fff;
+    border-style: double;
+    align-items: center;
+    justify-content: center;
+}
+.literaturaParaTodos_texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.literaturaParaTodos_link{
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    filter: brightness(50%);
+}
+
+
+
+.main_content_analfabetismo_link:hover{
+
+    transform: scale(0.87);
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    filter: brightness(77%);
+   
+}
+
+.main_content_dislexia_link:hover{
+
+    transform: scale(0.87);
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    filter: brightness(77%);
+   
+}
+
+.literaturaParaTodos{
+    background-color: #141466;
+    
+    color:#fff;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
